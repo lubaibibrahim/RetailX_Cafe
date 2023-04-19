@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A5567</color>
+    <color name="colorPrimaryDark">#1A5567</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_gray">#848484</color>
+    <color name="orange">#F89221</color>
+
+    <color name="productname_color">#29303f</color>
+    <color name="mustard_yellow">#FF9501</color>
+    <color name="transparentgreen">#1A5D952A</color>
+    <color name="base_gray">#F3F2F7</color>
+    <color name="darkskyBlue">#1A5567</color>
+    <color name="product_bg">#EEBFA3</color>
+    <color name="normal_table">#607d8b</color>
+    <color name="brown">#654321</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+
+        <!--    HADABA colors-->
+
+    <color name="action_button_color">#0E3A47</color>
+    <color name="category_item_bg">#1A5567</color>
+    <color name="product_item_bg">#79CDE9</color>
+    <color name="bill_amount_bg">#6A6164</color>
+</resources>

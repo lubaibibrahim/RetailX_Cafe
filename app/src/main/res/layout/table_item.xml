@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/normal_table"
+        android:gravity="center"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/table_icon"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/chair" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/table_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sdksd"
+            android:maxLines="2"
+            android:lines="2"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/table_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04:30 PM"
+            android:maxLines="1"
+            android:lines="1"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:textColor="@color/brown" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

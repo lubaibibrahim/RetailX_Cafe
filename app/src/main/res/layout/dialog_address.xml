@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="Customer Address"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/search_bg"
+        android:hint="Name"
+        android:lines="1"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/productname_color" />
+
+    <EditText
+        android:id="@+id/customer_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:lines="1"
+        android:maxLines="1"
+        android:inputType="phone"
+        android:textStyle="bold"
+        android:background="@drawable/search_bg"
+        android:hint="Phone Number"
+        android:ems="10"
+        android:padding="8dp"
+        android:textColor="@color/productname_color" />
+
+    <EditText
+        android:id="@+id/customer_address"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/search_bg"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textColor="@color/productname_color" />
+
+    </LinearLayout>
+<Button
+    android:id="@+id/submit_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SUBMIT"
+    android:layout_marginTop="16dp"
+    android:layout_below="@id/topPanel"
+    android:background="@color/colorPrimary"
+    android:textStyle="bold"
+    android:textColor="@color/white"/>
+
+</RelativeLayout>

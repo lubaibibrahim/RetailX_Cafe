@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/tbl_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:backgroundTint="@color/category_item_bg"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="4dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Table Transfer"/>
+
+    <Button
+        android:id="@+id/item_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:backgroundTint="@color/category_item_bg"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="4dp"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Item Transfer"/>
+
+    <Button
+        android:id="@+id/tbl_merge"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:backgroundTint="@color/category_item_bg"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="4dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Merge Table"/>
+
+    <Button
+        android:id="@+id/take_away"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:backgroundTint="@color/category_item_bg"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="4dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="TAKE AWAY"/>
+    <Button
+        android:id="@+id/delivery"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:backgroundTint="@color/category_item_bg"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="4dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="DELIVERY"/>
+
+
+</LinearLayout>
